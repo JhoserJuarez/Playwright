@@ -1,0 +1,17 @@
+export const EmpleadosLocators ={
+    username: 'input[name="username"]',
+    password: 'input[name="password"]',
+    loginButton: '//*[@id="app"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button',
+    loginMessageTrue: '//h6[text()="Dashboard"]',
+    photo: 'input[type="file"]',
+    firtsName: 'input[name="firstName"]' ,
+    middleName: 'input[name="middleName"]',
+    lastName: 'input[name="lastName"]',
+    code: '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/input',
+    activeDetail: 'form span',
+    newUsername: '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[2]/div[3]/div/div[1]/div/div[2]/input' ,
+    newPassword: '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[2]/div[4]/div/div[1]/div/div[2]/input',
+    newPasswordConfirmation: '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[1]/div[2]/div[4]/div/div[2]/div/div[2]/input',
+    saveEmpleado: 'button[type="submit"]',
+    empleadoMessageTrue: '//h6[text()="Personal Details"]',
+}
