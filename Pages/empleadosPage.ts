@@ -47,10 +47,10 @@ export class empleadosPage extends BasePage{
 
     async fillNewEmpleado(){
         await this.setInputFile(EmpleadosLocators.photo,"userjuarez.png")
-        await this.fillField(EmpleadosLocators.firtsName,"Eduardo");
-        await this.fillField(EmpleadosLocators.middleName,"Edu");
+        await this.fillField(EmpleadosLocators.firtsName,"Jhoser");
+        await this.fillField(EmpleadosLocators.middleName,"Eduardo");
         await this.fillField(EmpleadosLocators.lastName,"Juarez");
-        await this.fillField(EmpleadosLocators.code,"1324354");
+        await this.fillField(EmpleadosLocators.code,"132435432");
         await this.clickOn(EmpleadosLocators.activeDetail);
         await this.fillField(EmpleadosLocators.newUsername,"jhosjuamir8");
         await this.fillField(EmpleadosLocators.newPassword,"Edu123");
